@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .date-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .error {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: red;
+  }
+  
+  mat-card {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
