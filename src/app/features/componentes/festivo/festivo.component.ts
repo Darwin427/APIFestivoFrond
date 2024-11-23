@@ -34,7 +34,7 @@ export class FestivoComponent {
   selectedDate: Date | null = null;
   year: number | null = null;
 
-  private apiUrl = 'http://localhost:7171';
+  private apiUrl = 'http://localhost:7171/';
 
   constructor(private http: HttpClient) {}
 

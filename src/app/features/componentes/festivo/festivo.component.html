@@ -8,7 +8,7 @@
         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker #picker></mat-datepicker>
       </mat-form-field>
-      <button mat-raised-button color="primary" (click)="checkIfFestive()">Verificar Festivo</button>
+      <button mat-raised-button color="white" color="black" (click)="checkIfFestive()">Verificar Festivo</button>
     </div>
   </mat-card-content>
 </mat-card>
@@ -20,7 +20,7 @@
       <mat-label>Año</mat-label>
       <input matInput type="number" [(ngModel)]="year">
     </mat-form-field>
-    <button mat-raised-button color="accent" (click)="fetchFestivos()">Buscar Festivos</button>
+    <button mat-raised-button color="white" color="black"  (click)="fetchFestivos()">Buscar Festivos</button>
   </mat-card-content>
 </mat-card>
   
